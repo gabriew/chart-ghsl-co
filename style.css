@@ -1,0 +1,84 @@
+.chart-ghsl-co {
+    font-size: 1em;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    overflow: hidden;
+}
+
+.chart-ghsl-co:hover {
+    overflow: auto;
+}
+
+.chart-ghsl-co-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.chart-ghsl-co:hover .masterItem-ghsl {
+    opacity: 0.5;
+}
+
+.chart-ghsl-co>.masterItem-ghsl:hover {
+    cursor: pointer;
+    opacity: 1 !important;
+    font-weight: bold;
+}
+
+.item-ghsl-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5vh;
+}
+
+.item-ghsl-top-right {
+    font-weight: bold;
+}
+
+.item-ghsl-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-ghsl-bottom-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-right: 5px;
+}
+
+.item-ghsl-bottom-bar p {
+    font-weight: bold;
+}
+
+.item-ghsl-bottom>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.item-ghsl-bottom>div p {
+    font-weight: bold;
+}
+
+.chart-ghsl-co::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.chart-ghsl-co::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+.chart-ghsl-co::-webkit-scrollbar-thumb {
+    background-color: rgb(90, 96, 107);
+    border-radius: 10px;
+}

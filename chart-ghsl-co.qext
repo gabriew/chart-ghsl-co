@@ -1,0 +1,15 @@
+{
+	"name": "chart-ghsl-co",
+	"description": "Table visualization template",
+	"icon": "table",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "Gabriel Lima",
+	"homepage": "gabriel.live.earth@gmail.com",
+	"keywords": "qlik-sense, visualization, chart, barchart, bar chart",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
